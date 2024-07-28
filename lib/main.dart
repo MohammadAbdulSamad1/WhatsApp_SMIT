@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:whatsapp_clone/auht/phoneNO_Screen.dart';
+import 'package:whatsapp_clone/settings/settingsChats.dart';
 
 void main() {
   runApp(const MyApp());
@@ -35,7 +36,8 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: PhonenoScreen(),
+        home: settingChats(),
+        // PhonenoScreen(),
       ),
       minTextAdapt: true,
       splitScreenMode: true,
