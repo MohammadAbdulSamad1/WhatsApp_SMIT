@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:whatsapp_clone/Contacts/ContactInfo.dart';
+import 'package:whatsapp_clone/Contacts/editContact.dart';
 import 'package:whatsapp_clone/auht/phoneNO_Screen.dart';
+
+import 'package:whatsapp_clone/notification/notificationinfo.dart';
 
 void main() {
   runApp(const MyApp());
@@ -35,7 +39,10 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: PhonenoScreen(),
+        home: notificationinfo(),
+        // editcontact(),
+        // ContactInfo(),
+        // PhonenoScreen(),
       ),
       minTextAdapt: true,
       splitScreenMode: true,
